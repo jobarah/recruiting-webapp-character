@@ -3,6 +3,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
 
 .App-logo {
@@ -27,7 +28,10 @@
 }
 
 .App-section {
-  flex: 1 1 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex: 100px 100px 0;
   background-color: hsl(220deg 13% 13%);
   color: white;
 }

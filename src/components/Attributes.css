@@ -1,0 +1,11 @@
+.attribute-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.attribute {
+    flex-direction: row;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
